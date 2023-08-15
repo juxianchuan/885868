@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{border: 1px solid black;}
+    body{
+        height: 100vh;
+        margin: 0;
+        background-color: aliceblue;
+    }
+    .box1{
+        height: 200px;
+        width: 400px;
+        background-color: aqua;
+    }
+    .box2{
+        height: 200px;
+        width: 600px;
+        background-color: rgb(0, 12, 86);
+    }
+    .box3{
+        height: 900px;
+        width: 1000px;
+        background-color: rgb(255, 94, 0);
+    }
+    .flex{display: flex;}
+    .flex1{flex: 1;}
+    .lie{flex-direction: column;}
+    .jz{justify-content: center;}
+  @media screen and (max-width:600px){
+    .by{display: none;}
+    .hang{flex-direction: column;}
+    .zx{
+        align-items: center;
+    }
+    .box2{
+        height: 200px;
+        width: 460px;
+        background-color: rgb(0, 12, 86);
+    }
+    .box3{
+        height: 900px;
+        width: 460px;
+        background-color: rgb(255, 94, 0);
+    }
+    .box1{
+        height: 200px;
+        width: 360px;
+        background-color: aqua;
+}
+  }
+    
+   
+</style>
+<body class="flex">
+<div class="flex flex1" style="height: 100%; width: 100%;">
+   <div class="flex by" style="width: 100px; background-color: aqua;"></div>
+   <div class="flex1 flex lie" style="overflow: auto; ">
+    <div>
+        <div class="flex jz hang zx">
+            <div class=" box1">巍峨撒大苏打撒旦大飒飒大苏打撒旦实打实撒大苏打撒大苏打weq we wqe weqwewq wqeqwe wqe wqee wqeqwewqeqwe </div>
+            <div class="box2">萨达萨达萨达萨达萨达萨达十大大苏打啊实打实的阿松大</div>
+        </div>
+        <div class=" flex jz zx">
+        <div class="box3 flex " >我去恶趣味请问我去恶趣味请问去问问去恶趣味</div>
+        </div>
+        </div>
+   </div>
+   <div class="flex by" style="width: 100px;background-color: blue;"></div>
+</div> 
+</body>
+</html>
